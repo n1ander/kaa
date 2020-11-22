@@ -1,9 +1,6 @@
-from libs import sortFileByTime, getFileName, getHarmony, getTaylorCreek
+from libs import sortFileByTime, getFileName, createZipFile, sftpConnect 
 
 res = sortFileByTime()
 mylist = getFileName(res)
-
-harmony = getHarmony(mylist)
-tc = getTaylorCreek(mylist)
-print(harmony)
-print(tc)
+zipFile = createZipFile(mylist)
+sftpConnect(zipFile.filename, "CustomerX.zip")

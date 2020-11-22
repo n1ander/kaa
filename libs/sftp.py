@@ -8,7 +8,6 @@ def sftpConnect(localFile, remoteFile):
     try:
         with pysftp.Connection('localhost', username='tester', password='password', cnopts=cnopts) as sftp:
             sftp.put(localFile, remoteFile)
-            #sftp.put(localFile1, remoteFile1)
             print("Successfully connected to SFTP...")
     except:
         print("SFTP connection failed!")

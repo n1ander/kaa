@@ -5,7 +5,7 @@ import zipfile
 def createZipFile(mylist):
     date = time.strftime('%Y%m%d', time.gmtime())
     os.chdir('build/')
-    zf = zipfile.ZipFile("FMPA" + date + ".zip", mode='w')
+    zf = zipfile.ZipFile("CustomerX" + date + ".zip", mode='w')
     try:
         os.chdir('../docs/')
         for x in mylist:
