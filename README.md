@@ -1,5 +1,5 @@
 ## KAA
-This project creates a zip archieve of the latest csv files created in a directory and sends them to a SFTP server. 
+This project creates a zip archive of the latest csv files created in a directory and sends them to a SFTP server. 
 
 ## Motivation
 CustomerX was looking to have daily csv files provided to their SFTP server. I created this group of scripts to automate that business requirment.  
