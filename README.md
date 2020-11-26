@@ -10,7 +10,7 @@ CustomerX was looking to have daily csv files provided to their SFTP server. I c
 - [Python](https://www.python.org/)
 
 ## Installation
-Python 3 along with pip are needed for this project. I leveraged several third parties modules such as pysftp, time, and  itertools to name a few.
+Python 3 along with pip are needed for this project. I leveraged several third party modules such as pysftp, time, and  itertools to name a few.
 
 ## Usage
 
